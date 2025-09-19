@@ -1,30 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AI Prompt History Manager</title>
     <style>
-        /* Some basic styling to make it look clean */
-        body { font-family: sans-serif; max-width: 600px; margin: 40px auto; }
-        #prompt-input { width: 70%; padding: 8px; }
-        #history-container { margin-top: 20px; border: 1px solid #ccc; padding: 10px; min-height: 100px; }
+      /* Some basic styling to make it look clean */
+      body {
+        font-family: sans-serif;
+        max-width: 600px;
+        margin: 40px auto;
+      }
+      #prompt-input {
+        width: 70%;
+        padding: 8px;
+      }
+      #history-container {
+        margin-top: 20px;
+        border: 1px solid #ccc;
+        padding: 10px;
+        min-height: 100px;
+      }
     </style>
-</head>
-<body>
-
+  </head>
+  <body>
     <h1>AI Prompt History Manager</h1>
 
-    <input type="text" id="prompt-input" placeholder="Enter your AI prompt here...">
+    <input type="text" id="prompt-input" placeholder="Enter your AI prompt here..." />
 
     <button id="add-prompt-btn">Add Prompt</button>
     <button id="remove-prompt-btn">Remove Last Prompt</button>
 
+    <input type="number" name="" id="" min="0" max="10" />
+    <input type="text" placeholder="Edit text input">
+    <button id="update-prompt-btn">Update Prompt</button>
+
     <h2>Prompt History:</h2>
-    <div id="history-container">
-        </div>
+    <div id="history-container"></div>
 
     <script src="app.js"></script>
-
-</body>
+  </body>
 </html>
